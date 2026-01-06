@@ -1,0 +1,40 @@
+# ACIP - AI Content Intelligence Platform
+
+> SEO-first content engine that plans topical authority and generates publish-ready articles at scale.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/bloggen-ai-content-platform
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Building topical authority means producing large volumes of genuinely structured content. Done by hand it is slow and inconsistent; done naively with an LLM it produces undifferentiated text that does not rank.
+
+A pipeline rather than a prompt. Topic planning establishes the cluster, distinct article templates enforce different structures - authority piece, deep dive, specialist, comparison, case study - and a generation stage fills them. Because each template has its own shape, the output does not collapse into one repeated format.
+
+## Stack
+Language: JavaScript, Node.js, Generation: LLM content pipeline, Templates: HTML and PHP article formats, Interface: Command-line pipeline runner
+
+## Capabilities
+- Topical authority planning
+- Five distinct article templates
+- Staged generation pipeline
+- SEO-structured output
+- CLI-driven batch production
+
+## Outcomes
+- Content volume achievable without one repeated article shape
+- Structure decided by template rather than left to the model
+
+## FAQ
+Q: How is this different from prompting ChatGPT for blog posts?
+A: The pipeline plans a topic cluster first and generates into five structurally different templates, so output varies in shape and serves a deliberate authority map.
+
+Q: What does 'SEO-first' mean here?
+A: Structure, internal linking and topical coverage are planned before generation, rather than edited in afterwards.
+
+Q: Can it publish directly?
+A: It emits publish-ready HTML and PHP for the target site.
+
+Q: Is the source available?
+A: Private; access on request.
